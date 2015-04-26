@@ -6,11 +6,7 @@ add_action( 'admin_init', 'zerif_pro_register_settings' );
 
 function zerif_pro_register_settings()
 {
-    register_setting(
-        'general',
-        'zerif_pro_license',
-        'esc_html'
-    );
+
     add_settings_field(
         'zerif_pro_license',
         get_current_theme()." license",
@@ -19,49 +15,128 @@ function zerif_pro_register_settings()
     );
 }
 function zerif_pro_license_view(){
-    $value = get_option( 'zerif_pro_license', '' );
 
-    $status 	= get_option( 'zerif_pro_license_status','' );
+    $status =  zerif_pro_get_status();
+    $value = zerif_pro_get_license();
     echo '<p ><input '.(($status === 'valid') ? ('style="border:1px solid #7ad03a; "') : '').' type="text" id="zerif_pro_license" name="zerif_pro_license" value="' . $value . '" /><a '.(($status === 'valid') ? ('style="color:#fff;background:  #7ad03a; display: inline-block;text-decoration: none;font-size: 13px;line-height: 26px;height: 26px; margin-left:5px; padding: 0 10px 1px;  -webkit-border-radius: 3px;border-radius: 3px; ">Valid') : ('style="color:#fff;background:  #dd3d36; display: inline-block;text-decoration: none;font-size: 13px;line-height: 26px;height: 26px; margin-left:5px; padding: 0 10px 1px;  -webkit-border-radius: 3px;border-radius: 3px; ">Invalid')).' </a></p><p class="description">Enter your license from <a  href="https://themeisle.com/purchase-history">themeisle.com</a> in order to get theme updates</p>';
 
 
 }
 
+function zerif_pro_get_status(){
+
+    $license_data = get_option( 'zerif_pro_license_data', '' );
+
+    if($license_data !== ''){
+        return isset($license_data->license) ? $license_data->license : get_option( 'zerif_pro_license_status','' ) ;
+    }else{
+        return get_option( 'zerif_pro_license_status','' ) ;
+    }
+}
+
+function zerif_pro_get_license(){
+
+    $license_data = get_option( 'zerif_pro_license_data', '' );
+    if($license_data !== ''){
+        return isset($license_data->key) ? $license_data->key: get_option( 'zerif_pro_license', '' ) ;
+    }else{
+        return get_option( 'zerif_pro_license','' ) ;
+    }
+}
+function zerif_pro_check_activation(){
+    $license_data = get_option( 'zerif_pro_license_data', '' );
+
+    if($license_data !== ''){
+        return isset($license_data->error) ? ($license_data->error == 'no_activations_left') : false;
+    }
+    return false;
+}
+function zerif_pro_check_expiration(){
+
+    $license_data = get_option( 'zerif_pro_license_data', '' );
+
+    if($license_data !== ''){
+        if(isset($license_data->expires)) {
+            if( strtotime($license_data->expires) - time() < 30 * 24 * 3600) {
+                return true;
+            }
+        }
+    }
+    return false;
+}
+function zerif_pro_check_hide($hide){
+    if(isset($_GET['zerif_pro_hide_'.$hide])){
+        if($_GET['zerif_pro_hide_'.$hide]==='yes') {
+            $license = get_option( 'zerif_pro_license_data', '' );
+            $license->{'hide_'.$hide} = true;
+            update_option( 'zerif_pro_license_data', $license );
+            return false;
+        }
+    }else{
+        $license =
+        $license = get_option( 'zerif_pro_license_data', '' ); ;
+        if($license !== ''){
+            if(isset($license->{'hide_'.$hide})){
+                return false;
+            }
+        }
+    }
+    return true;
+}
 function zerif_pro_notice() {
 
-    $status 	= get_option( 'zerif_pro_license_status','' );
-    if($status != 'valid')  {
-        $license = get_option('zerif_pro_license_data');
-        if(is_object($license)){
-            if($license->error == 'no_activations_left'){
-                ?>
 
+    $status 	= zerif_pro_get_status();
+    $admin_url = admin_url("options-general.php");
+
+    if($status != 'valid')  {
+        if(zerif_pro_check_activation()){
+            if(zerif_pro_check_hide('activation')){
+                ?>
                 <div class="error">
-                    <p><strong>No activations left for <?php echo get_current_theme(); ?>  !!!. You need to upgrade your plan in order to use <?php echo get_current_theme(); ?> on more websites. Please <a href="mailto:friends@themeisle.com">contact</a> the ThemeIsle Staff for more details.</strong></p>
+                    <p><strong>No activations left for <?php echo get_current_theme(); ?>  !!!. You need to upgrade your plan in order to use <?php echo get_current_theme(); ?> on more websites. Please <a href="mailto:friends@themeisle.com">contact</a> the ThemeIsle Staff for more details.</strong>| <a href="<?php echo $admin_url; ?>?zerif_pro_hide_activation=yes">Hide Notice</a></p>
                 </div>
                 <?php
                 return false;
             }
         }
         ?>
-
-        <div class="error">
-            <p><strong>You do not have a valid license for <?php echo get_current_theme(); ?>  theme !!!. You can get the license code from your purchase history on <a href="https://themeisle.com/purchase-history" >themeisle.com</a> and validate it <a href="<?php echo admin_url("options-general.php"); ?>#zerif_pro_license">here</a> </strong></p>
-        </div>
+        <?php if(zerif_pro_check_hide('valid') ): ?>
+            <div class="error">
+                <p><strong>You do not have a valid license for <?php echo get_current_theme(); ?>  theme !!!. You can get the license code from your purchase history on <a href="https://themeisle.com/purchase-history" >themeisle.com</a> and validate it <a href="<?php echo admin_url("options-general.php"); ?>#zerif_pro_license">here</a> </strong>| <a href="<?php echo $admin_url; ?>?zerif_pro_hide_valid=yes">Hide Notice</a></p>
+            </div>
+        <?php endif; ?>
     <?php
     }else{
-        $expire 	= get_option( 'zerif_pro_expires','' );
 
-        if($expire == 'yes'){
-            ?>
-            <div class="update-nag">
-                <p><strong>Your license is about to expire for <?php echo get_current_theme(); ?>   theme !!!. You can go to  <a href="https://themeisle.com/" >themeisle.com</a> and  renew it.</strong></p>
-            </div>
-        <?php
+        if(zerif_pro_check_expiration()){
+            if(zerif_pro_check_hide('expiration')){
+                ?>
+                ?>
+                <div class="update-nag">
+                    <p><strong>Your license is about to expire for <?php echo get_current_theme(); ?>   theme !!!. You can go to  <a href="https://themeisle.com/" >themeisle.com</a> and  renew it.</strong>| <a href="<?php echo $admin_url; ?>?zerif_pro_hide_expiration=yes">Hide Notice</a></p>
+                </div>
+            <?php
+            }
         }
     }
 }
+
 add_action( 'admin_notices', 'zerif_pro_notice' );
+function zerif_pro_renew_url(){
+
+    $license_data = get_option( 'zerif_pro_license_data', '' );
+
+    if($license_data !== ''){
+        if(isset($license_data->download_id) && isset($license_data->key)){
+            return "https://themeisle.com/checkout/?edd_license_key=".$license_data->key."&download_id=".$license_data->download_id;
+        }
+    }
+
+    return " https://themeisle.com/";
+}
+add_action( 'admin_notices', 'zerif_pro_notice' );
+
 function zerif_pro_activate_license() {
 
     // listen for our activate button to be clicked
@@ -82,6 +157,8 @@ function zerif_pro_activate_license() {
 
         // Call the custom API.
         $response = wp_remote_get( add_query_arg( $api_params, EDD_SL_STORE_URL ) );
+
+
         // make sure the response came back okay
         if ( is_wp_error( $response ) )
         {
@@ -89,35 +166,26 @@ function zerif_pro_activate_license() {
             $license_data -> license = "valid";
 
         }else{
-
             $license_data = json_decode( wp_remote_retrieve_body( $response ) );
-
+            if(!is_object($license_data)){
+                $license_data = new stdClass();
+                $license_data -> license = "valid";
+            }
         }
-        // decode the license data
-        $license_data = json_decode( wp_remote_retrieve_body( $response ) );
-        // $license_data->license will be either "active" or "inactive"
-
-        update_option( 'zerif_pro_license_status', $license_data->license );
+        if(!isset($license_data->key)) $license_data->key = $license ;
         update_option( 'zerif_pro_license_data', $license_data );
-        update_option( 'zerif_pro_license', $license );
-        zerif_pro_theme_valid(true);
+        delete_transient( 'zerif_pro_license_data');
+        set_transient( 'zerif_pro_license_data', $license_data, 12 * HOUR_IN_SECONDS  );
+
     }
 }
 
-add_action( 'admin_init', 'zerif_pro_theme_valid' );
+add_action( 'admin_init', 'zerif_pro_theme_valid',9999999 );
 function zerif_pro_theme_valid($force = false){
-    if ( false === ( $status = get_transient( 'zerif_pro_status_license' ) )  || ($force === true) ) {
+    if ( false === ( $license = get_transient( 'zerif_pro_license_data' ) ) ) {
         $license = zerif_pro_check_license();
-        $status = $license->license;
-        if(isset($license->expires)) {
-            if( strtotime($license->expires) - time() < 30 * 24 * 3600) {
-                update_option( 'zerif_pro_expires', "yes");
-            }else{
-                update_option( 'zerif_pro_expires', "no");
-            }
-        }
-        set_transient( 'zerif_pro_status_license', $status, 12 * HOUR_IN_SECONDS );
-        update_option( 'zerif_pro_license_status', $status );
+        set_transient( 'zerif_pro_license_data', $license, 12 * HOUR_IN_SECONDS   );
+        update_option( 'zerif_pro_license_data', $license );
     }
 
 }
@@ -128,7 +196,7 @@ function zerif_pro_check_license() {
 
 
     $theme_data =   wp_get_theme(basename(get_template_directory() ));
-    $license = trim( get_option( 'zerif_pro_license' ) );
+    $license = trim( zerif_pro_get_license() );
     $api_params = array(
         'edd_action' => 'check_license',
         'license' => $license,
@@ -147,10 +215,20 @@ function zerif_pro_check_license() {
     }else{
 
         $license_data = json_decode( wp_remote_retrieve_body( $response ) );
-
+        if(!is_object($license_data)){
+            $license_data = new stdClass();
+            $license_data -> license = "valid";
+        }
     }
 
+
+    $license_old = get_option( 'zerif_pro_license_data', '' );
+    if(isset($license_old->hide_valid)) $license_data->hide_valid = true;
+    if(!isset($license_data->key)) $license_data->key = isset($license_old->key) ? $license_old->key : "" ;
+    if(isset($license_old->hide_expiration)) $license_data->hide_expiration = true;
+    if(isset($license_old->hide_activation)) $license_data->hide_activation = true;
     return $license_data;
+
 
 }
 
@@ -158,7 +236,7 @@ function zerif_pro_theme_updater() {
 
 
     $theme_data =   wp_get_theme(basename(get_template_directory() ));
-    $test_license = trim( get_option( 'zerif_pro_license','' ) );
+    $test_license = trim( zerif_pro_get_license() );
     $edd_updater = new EDD_SL_Theme_Updater( array(
             'remote_api_url' 	=> EDD_SL_STORE_URL, 	// Our store URL that is running EDD
             'version' 			=> $theme_data->get('Version'), 				// The current theme version we are running

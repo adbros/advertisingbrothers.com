@@ -81,6 +81,7 @@ function zerif_setup() {
 	/* Set the image size by cropping the image */
 
 	add_image_size( 'post-thumbnail', 250, 250, true );
+	add_image_size( 'post-thumbnail-large', 750, 550, true );
 
 
 
@@ -372,7 +373,13 @@ function zerif_scripts() {
 	/* Main stylesheet */
 
 	wp_enqueue_style( 'zerif_style', get_stylesheet_uri(), array('zerif_font-awesome_style','zerif_bootstrap_style'),'v1' );
+
+	if ( wp_is_mobile() ){
+		
+		wp_enqueue_style( 'zerif_style_mobile', get_template_directory_uri() . '/css/style-mobile.css', array('zerif_font-awesome_style','zerif_bootstrap_style', 'zerif_style'),'v1' );
 	
+	}
+
 	/*****************/
 	/**** SCRIPTS ****/
 	/****************/
@@ -1059,8 +1066,8 @@ class zerif_testimonial_widget extends WP_Widget {
 			<div class="client">
 
 				<div class="quote red-text">
-
-					<i class="icon-fontawesome-webfont-294"></i>
+				
+					<i class="fa fa-quote-left"></i>
 
 				</div>
 
@@ -2118,7 +2125,7 @@ function zerif_php_style() {
 	echo '	#footer .social li a:hover { color: '. get_theme_mod('zerif_footer_socials_hover') .' }';
 	
 	echo '	.separator-one { background: '. get_theme_mod('zerif_ribbon_background') .' }';
-	echo '	.separator-one h3, .separator-one a { color: '. get_theme_mod('zerif_ribbon_text_color') .' }';
+	echo '	.separator-one h3, .separator-one a { color: '. get_theme_mod('zerif_ribbon_text_color') .' !important; }';
 	echo '	.separator-one .green-btn { background: '. get_theme_mod('zerif_ribbon_button_background') .' }';
 	echo '	.separator-one .green-btn:hover { background: '. get_theme_mod('zerif_ribbon_button_background_hover') .' }';
 	
@@ -2197,7 +2204,7 @@ function zerif_get_lite_options () {
 	$zerif_bigtitle_redbutton_url = get_theme_mod('zerif_bigtitle_redbutton_url');
 	
 	if( !empty($zerif_mods) ):
-	
+		
 		foreach($zerif_mods as $zerif_mod_k => $zerif_mod_v):
 			
 			if( isset($zerif_bigtitle_redbutton_url) && ($zerif_bigtitle_redbutton_url == '#') ):
@@ -2209,6 +2216,24 @@ function zerif_get_lite_options () {
 	endif;
 	
 }
+
+/* remove custom-background from body_class() */
+add_filter( 'body_class', 'remove_class_function' );
+function remove_class_function( $classes ) {
+	$zerif_bgslider1 = get_theme_mod('zerif_bgslider_1');
+	$zerif_bgslider2 = get_theme_mod('zerif_bgslider_2');
+	$zerif_bgslider3 = get_theme_mod('zerif_bgslider_3');
+    if ( !is_home() || !empty($zerif_bgslider_1) || !empty($zerif_bgslider_2) || !empty($zerif_bgslider_3) ) 
+    {   
+        // index of custom-background
+        $key = array_search('custom-background', $classes);
+        // remove class
+        unset($classes[$key]);
+    }
+    return $classes;
+}
+
+
 
  require 'inc/cwp-update.php'; 
 

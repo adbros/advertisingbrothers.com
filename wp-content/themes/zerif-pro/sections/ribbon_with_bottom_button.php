@@ -1,7 +1,7 @@
 <?php
 	$zerif_bottomribbon_text = get_theme_mod('zerif_bottomribbon_text');
 	if( !empty($zerif_bottomribbon_text) ):
-		echo '<section class="separator-one">';
+		echo '<section class="separator-one" id="ribbon_bottom">';
 			echo '<div class="color-overlay">';
 				echo '<h3 class="container text" data-scrollreveal="enter left after 0s over 1s">';
 					echo $zerif_bottomribbon_text;

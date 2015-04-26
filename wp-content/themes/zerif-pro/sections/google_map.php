@@ -11,7 +11,9 @@ if( !empty($zerif_googlemap_address) ):
 		echo "<img id='map' src='https://maps.googleapis.com/maps/api/staticmap?center=".$zerif_googlemap_address."&size=640x640&scale=2' >";
 		
 	else:
-	
+		?>
+		<div class="zerif_map_overlay" onClick="style.pointerEvents='none'"></div>
+		<?php
 		echo "<iframe id='map' class='zerif_google_map' frameborder='0' scrolling='no'  marginheight='0' marginwidth='0' src='https://maps.google.com/maps?&amp;q=".urlencode( $zerif_googlemap_address )."&amp;output=embed&iwloc'></iframe>";
 
 	endif;

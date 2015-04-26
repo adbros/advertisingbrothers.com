@@ -1,5 +1,95 @@
 
 
+### 1.7.3 - 15/04/2015
+
+ Changes: 
+
+
+ * Fixed #114 Background image appears when page is loading
+
+
+### 1.7.1 - 08/04/2015
+
+ Changes: 
+
+
+ * Fixed XSS vulnerability with contact form
+
+
+### 1.7.1 - 07/04/2015
+
+ Changes: 
+
+
+ * Padding issue
+ * Fixed #104 No image appears on the blog page on IE8
+
+
+### 1.6.9 - 04/04/2015
+
+ Changes: 
+
+
+ * Fixed #85, error in js, when contact form is not displayed, which caused about us circles to stop working
+ * Fixed #82, problem with Our Focus widget colors
+ * Replaced screenshot with the new format
+
+1200x900
+.jpg -> .png
+ * Merge pull request #87 from DragosBubu/development
+
+Replaced screenshot with the new format
+ * Fixed #80 No Compatible with IE9
+ * Fixed #94 WooCommerce Pagination Issue
+ * Fixed #95 Featured products issue
+ * This fixes #88
+
+New screenshot
+ * Merge pull request #96 from DragosBubu/development
+
+This fixes #88
+ * Fixed #99, removed sidebar from woocommerce templates
+ * Fixed #100, removed sidebar from checkout page
+ * Fixed #101, theme not loading on IE8, included scrollReveal.js for versions greater then IE8
+ * H tags incompatible with plugins
+ * Fixed large bottom padding on frontpage sections
+ * Introduced new (large) template for Blog
+ * Fixed #103 Blog alignment problem
+ * Fixed #105 New blog template looks very bad on IE8
+
+
+### 1.6.0 - 17/03/2015
+
+ Changes: 
+
+
+ * Woocommerce style issues
+ * Fixed Shop page mobile issue
+ * Fixed #79 Responsive menu issues
+ * Fixed #78, added author link for testimonial widget
+
+
+### 1.5.4 - 05/03/2015
+
+ Changes: 
+
+
+ * Latest news issue on iPad
+ * Woocommerce display for older versions
+ * Branding
+
+- Modified background image
++ added focus images
+ * Branding - follow-up
+
+removed unnecessary images
+added screenshot
+ * Replaced screenshot
+ * Merge pull request #74 from DragosBubu/development
+
+Branding
+
+
 ### 1.4.7 - 12/02/2015
 
  Changes: 

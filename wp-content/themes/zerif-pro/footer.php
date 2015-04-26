@@ -54,6 +54,8 @@
 		$zerif_socials_pinterest = get_theme_mod('zerif_socials_pinterest');
 		
 		$zerif_socials_googleplus = get_theme_mod('zerif_socials_googleplus');
+		
+		$zerif_socials_youtube = get_theme_mod('zerif_socials_youtube');
 			
 		$zerif_copyright = get_theme_mod('zerif_copyright');
 		
@@ -70,8 +72,7 @@
 			$footer_sections++;
 		endif;
 
-		if(!empty($zerif_socials_facebook) || !empty($zerif_socials_twitter) || !empty($zerif_socials_linkedin) || !empty($zerif_socials_behance) || !empty($zerif_socials_dribbble) || 
-		!empty($zerif_copyright)):
+		if(!empty($zerif_socials_facebook) || !empty($zerif_socials_twitter) || !empty($zerif_socials_linkedin) || !empty($zerif_socials_behance) || !empty($zerif_socials_youtube) || !empty($zerif_socials_dribbble) || !empty($zerif_socials_reddit) || !empty($zerif_socials_tumblr) || !empty($zerif_socials_pinterest) || !empty($zerif_socials_googleplus) || !empty($zerif_copyright)):
 			$footer_sections++;
 		endif;
 		
@@ -99,7 +100,7 @@
 
 				echo '<div class="icon-top red-text">';
 
-					if( !empty($zerif_address_icon) ) echo '<img src="'.$zerif_address_icon.'"</img>';
+					if( !empty($zerif_address_icon) ) echo '<img src="'.$zerif_address_icon.'">';
 
 				echo '</div>';
 
@@ -122,7 +123,7 @@
 
 				echo '<div class="icon-top green-text">';
 					
-					if( !empty($zerif_email_icon) ) echo '<img src="'.$zerif_email_icon.'"</img>';
+					if( !empty($zerif_email_icon) ) echo '<img src="'.$zerif_email_icon.'">';
 
 				echo '</div>';
 
@@ -145,7 +146,7 @@
 
 				echo '<div class="icon-top blue-text">';
 
-					if( !empty($zerif_phone_icon) ) echo '<img src="'.$zerif_phone_icon.'"</img>';
+					if( !empty($zerif_phone_icon) ) echo '<img src="'.$zerif_phone_icon.'">';
 
 				echo '</div>';
 
@@ -159,11 +160,11 @@
 			
 
 
-			if( !empty($zerif_socials_facebook) || !empty($zerif_socials_twitter) || !empty($zerif_socials_linkedin) || !empty($zerif_socials_behance) || !empty($zerif_socials_dribbble) || !empty($zerif_socials_reddit) || !empty($zerif_socials_tumblr) || !empty($zerif_socials_pinterest) || !empty($zerif_socials_googleplus) || !empty($zerif_copyright) ):
+			if( !empty($zerif_socials_facebook) || !empty($zerif_socials_twitter) || !empty($zerif_socials_linkedin) || !empty($zerif_socials_behance) || !empty($zerif_socials_dribbble) || !empty($zerif_socials_reddit) || !empty($zerif_socials_tumblr) || !empty($zerif_socials_pinterest) || !empty($zerif_socials_googleplus) || !empty($zerif_copyright) || !empty($zerif_socials_youtube) ):
 			
 					echo '<div class="'.$footer_class.' copyright">';
 
-					if( !empty($zerif_socials_facebook) || !empty($zerif_socials_twitter) || !empty($zerif_socials_linkedin) || !empty($zerif_socials_behance) || !empty($zerif_socials_dribbble) ):
+					if( !empty($zerif_socials_facebook) || !empty($zerif_socials_twitter) || !empty($zerif_socials_linkedin) || !empty($zerif_socials_behance) || !empty($zerif_socials_dribbble) || !empty($zerif_socials_reddit) || !empty($zerif_socials_tumblr) || !empty($zerif_socials_pinterest) || !empty($zerif_socials_googleplus) || !empty($zerif_socials_youtube) ):
 
 						echo '<ul class="social">';
 	
@@ -238,6 +239,14 @@
 						if( !empty($zerif_socials_reddit) ):
 
 							echo '<li><a target="_blank" href="'.$zerif_socials_reddit.'"><i class="fa fa-reddit"></i></a></li>';
+
+						endif;
+						
+						/* youtube */
+						
+						if( !empty($zerif_socials_youtube) ):
+
+							echo '<li><a target="_blank" href="'.$zerif_socials_youtube.'"><i class="fa fa-youtube"></i></a></li>';
 
 						endif;
 

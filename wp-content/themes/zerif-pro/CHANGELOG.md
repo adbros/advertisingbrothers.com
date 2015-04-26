@@ -1,5 +1,56 @@
 
 
+### 1.5.9.2 - 14/04/2015
+
+ Changes: 
+
+
+ * Fixed problem with license validation.
+
+
+### 1.5.9.1 - 03/04/2015
+
+ Changes: 
+
+
+ * Improved update system
+
+
+### 1.5.9 - 25/03/2015
+
+ Changes: 
+
+
+ * Fixed Firefox issues
+ * Introduced new (large) template for Blog
+
+This issue was causing a lot of refunds, so the design needed to be
+reinvented and elements rearranged, optimized for responsive, as well
+ * Fixed #201 Shop page mobile issues
+ * Merge pull request #199 from DragosBubu/development
+
+Introduced new (large) template for Blog
+ * Fixed #200 Added new features for slider in Customizer
+ * Fixed #203, youtube icon in footer socials, plug removed code used for testing in header
+ * Fixed #202, social icons in footer not showing up if not every field was writen
+ * Fixed #197, added targets for the ribbon sections
+ * Fixed #181, add a link to google captcha generator for site key and secret key
+ * Fixed #205, color changing for bottom button ribbon text
+ * Fixed #214 Remove !important mentions for woocommerce
+ * Fixed #204 Not Compatible with IE9
+
+
+### 1.4.7 - 04/03/2015
+
+ Changes: 
+
+
+ * Fixed #153 : Latest News issue on iPad
+ * Fixed #188 Woocommerce display for older versions
+ * Fixed #192, quotes icons on testimonials
+ * Fixed #190, prevent scroll in google maps section
+
+
 ### 1.4.5 - 27/02/2015
 
  Changes: 
