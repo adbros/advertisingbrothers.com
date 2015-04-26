@@ -15,8 +15,8 @@ DROP TABLE IF EXISTS `wp_blogs`;
 CREATE TABLE `wp_blogs` (
   `blog_id` bigint(20) NOT NULL AUTO_INCREMENT,
   `site_id` bigint(20) NOT NULL DEFAULT '0',
-  `domain` varchar(200) NOT NULL DEFAULT '',
-  `path` varchar(100) NOT NULL DEFAULT '',
+  `domain` varchar(200) COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT '',
+  `path` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT '',
   `registered` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
   `last_updated` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
   `public` tinyint(2) NOT NULL DEFAULT '1',
@@ -28,7 +28,7 @@ CREATE TABLE `wp_blogs` (
   PRIMARY KEY (`blog_id`),
   KEY `domain` (`domain`(50),`path`(5)),
   KEY `lang_id` (`lang_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `wp_blogs` WRITE;

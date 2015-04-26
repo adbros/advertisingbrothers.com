@@ -14,15 +14,16 @@ DROP TABLE IF EXISTS `wp_blog_versions`;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `wp_blog_versions` (
   `blog_id` bigint(20) NOT NULL DEFAULT '0',
-  `db_version` varchar(20) NOT NULL DEFAULT '',
+  `db_version` varchar(20) COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT '',
   `last_updated` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
   PRIMARY KEY (`blog_id`),
   KEY `db_version` (`db_version`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `wp_blog_versions` WRITE;
 /*!40000 ALTER TABLE `wp_blog_versions` DISABLE KEYS */;
+INSERT INTO `wp_blog_versions` VALUES (1,'31532','2015-04-25 12:43:07');
 /*!40000 ALTER TABLE `wp_blog_versions` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

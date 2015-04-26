@@ -14,11 +14,11 @@ DROP TABLE IF EXISTS `wp_site`;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `wp_site` (
   `id` bigint(20) NOT NULL AUTO_INCREMENT,
-  `domain` varchar(200) NOT NULL DEFAULT '',
-  `path` varchar(100) NOT NULL DEFAULT '',
+  `domain` varchar(200) COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT '',
+  `path` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT '',
   PRIMARY KEY (`id`),
-  KEY `domain` (`domain`,`path`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+  KEY `domain` (`domain`(140),`path`(51))
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `wp_site` WRITE;

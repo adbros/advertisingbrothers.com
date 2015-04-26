@@ -14,13 +14,13 @@ DROP TABLE IF EXISTS `wp_registration_log`;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `wp_registration_log` (
   `ID` bigint(20) NOT NULL AUTO_INCREMENT,
-  `email` varchar(255) NOT NULL DEFAULT '',
-  `IP` varchar(30) NOT NULL DEFAULT '',
+  `email` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT '',
+  `IP` varchar(30) COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT '',
   `blog_id` bigint(20) NOT NULL DEFAULT '0',
   `date_registered` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
   PRIMARY KEY (`ID`),
   KEY `IP` (`IP`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `wp_registration_log` WRITE;
