@@ -8,3 +8,4 @@
 [25-Apr-2015 17:43:06 UTC] WordPress database error Duplicate key name 'domain_path' for query ALTER TABLE wp_signups ADD KEY domain_path (domain(140),path(51)) made by wp_upgrade, make_db_current_silent, dbDelta
 [25-Apr-2015 17:43:07 UTC] WordPress database error Can't DROP 'domain'; check that column/key exists for query ALTER TABLE wp_signups DROP INDEX domain, ADD INDEX domain(domain(140),path(51)) made by wp_upgrade, upgrade_network
 [25-Apr-2015 17:43:07 UTC] WordPress database error Table 'joeross_wp904.wp_sitecategories' doesn't exist for query SHOW FULL COLUMNS FROM `wp_sitecategories` made by wp_upgrade, upgrade_network, maybe_convert_table_to_utf8mb4
+[28-Apr-2015 19:40:19 UTC] WordPress database error Duplicate key name 'domain_path' for query ALTER TABLE wp_signups ADD KEY domain_path (domain(140),path(51)) made by wp_upgrade, make_db_current_silent, dbDelta
