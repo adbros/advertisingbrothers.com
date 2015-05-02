@@ -1,0 +1,23 @@
+0000.000 (0) Opened log file at time: Fri, 01 May 2015 16:20:21 +0000 on http://advertisingbrothers.com
+0000.003 (0) UpdraftPlus WordPress backup plugin (http://updraftplus.com): 1.9.64 WP: 4.2.1 PHP: 5.5.20 (Linux helios.geekstorage.com 2.6.32-531.29.2.lve1.3.11.1.el6.x86_64 #1 SMP Thu Dec 18 06:49:17 EST 2014 x86_64) MySQL:  Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 30.2M | 32M) multisite: Y mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.005 (0) Free space on disk containing Updraft's temporary directory: 63684.3 Mb
+0000.009 (0) Tasks: Backup files:  (schedule: daily) Backup DB: 1 (schedule: daily)
+0000.011 (0) Processed schedules. Tasks now: Backup files:  Backup DB: 
+0000.013 (0) Decremented the semaphore (fd) by 1
+0000.016 (0) Semaphore (fd) still locked
+0000.017 (0) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0000.021 (0) Rescheduling resumption 1: moving to 120 seconds from now (1430497341)
+0000.030 (0) No email will be sent - this backup set was empty.
+0000.034 (0) The backup has not finished; a resumption is scheduled
+3615.642 (1) Opened log file at time: Fri, 01 May 2015 17:15:50 +0000 on http://advertisingbrothers.com
+3615.644 (1) UpdraftPlus WordPress backup plugin (http://updraftplus.com): 1.9.64 WP: 4.2.1 PHP: 5.5.20 (Linux helios.geekstorage.com 2.6.32-531.29.2.lve1.3.11.1.el6.x86_64 #1 SMP Thu Dec 18 06:49:17 EST 2014 x86_64) MySQL:  Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 33.5M | 34M) multisite: Y mcrypt: Y LANG:  ZipArchive::addFile: Y
+3615.648 (1) Free space on disk containing Updraft's temporary directory: 62991.4 Mb
+3615.650 (1) It looks like WordPress's scheduler has started multiple instances of this resumption
+3615.668 (1) Terminate: check-in exists with activity within the last 30 seconds (time_mod=1430500550.1, time_now=1430500550.5, diff=0, size=n/a). This likely means that another UpdraftPlus run is at work; so we will exit.
+3615.671 (1) Rescheduling resumption 2: moving to 345 seconds from now (1430500895)
+3615.675 (1) To decrease the likelihood of overlaps, increasing resumption interval to: 345 + 0 = 345
+26920.708 (2) Opened log file at time: Fri, 01 May 2015 23:44:15 +0000 on http://advertisingbrothers.com
+26921.150 (2) UpdraftPlus WordPress backup plugin (http://updraftplus.com): 1.9.64 WP: 4.2.1 PHP: 5.5.20 (Linux helios.geekstorage.com 2.6.32-531.29.2.lve1.3.11.1.el6.x86_64 #1 SMP Thu Dec 18 06:49:17 EST 2014 x86_64) MySQL:  Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 32M | 32.5M) multisite: Y mcrypt: Y LANG:  ZipArchive::addFile: Y
+26921.157 (2) Free space on disk containing Updraft's temporary directory: 61940 Mb
+26921.170 (2) Backup run: resumption=2, nonce=1b4d53a6101c, begun at=1430496934 (26922s ago), job type=backup, previous check-in=0s
+26922.174 (2) Terminate: This backup job is already finished.
