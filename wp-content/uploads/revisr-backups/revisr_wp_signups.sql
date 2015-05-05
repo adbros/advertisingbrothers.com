@@ -29,12 +29,12 @@ CREATE TABLE `wp_signups` (
   KEY `user_email` (`user_email`),
   KEY `user_login_email` (`user_login`,`user_email`),
   KEY `domain_path` (`domain`(191),`path`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `wp_signups` WRITE;
 /*!40000 ALTER TABLE `wp_signups` DISABLE KEYS */;
-INSERT INTO `wp_signups` VALUES (1,'','','','bross','brianross87@gmail.com','2015-03-02 13:47:41','0000-00-00 00:00:00',0,'f275404964446a85','a:2:{s:11:\"add_to_blog\";s:1:\"1\";s:8:\"new_role\";s:13:\"administrator\";}');
+INSERT INTO `wp_signups` VALUES (1,'','','','bross','brianross87@gmail.com','2015-03-02 13:47:41','0000-00-00 00:00:00',0,'f275404964446a85','a:2:{s:11:\"add_to_blog\";s:1:\"1\";s:8:\"new_role\";s:13:\"administrator\";}'),(2,'','','','brianross','brian@advertisingbros.com','2015-05-04 15:02:19','2015-05-04 15:02:43',1,'40decca6c7c72f5d','a:2:{s:11:\"add_to_blog\";s:1:\"1\";s:8:\"new_role\";s:13:\"administrator\";}');
 /*!40000 ALTER TABLE `wp_signups` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

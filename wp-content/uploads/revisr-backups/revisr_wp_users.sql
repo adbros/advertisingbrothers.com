@@ -28,12 +28,12 @@ CREATE TABLE `wp_users` (
   PRIMARY KEY (`ID`),
   KEY `user_login_key` (`user_login`),
   KEY `user_nicename` (`user_nicename`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `wp_users` WRITE;
 /*!40000 ALTER TABLE `wp_users` DISABLE KEYS */;
-INSERT INTO `wp_users` VALUES (1,'joeross','$P$BZyruNYNAZ1Hg./RCX6ol/14FIlV2O/','joeross','joe@advertisingbros.com','','2015-03-01 21:10:06','',0,'joeross',0,0);
+INSERT INTO `wp_users` VALUES (1,'joeross','$P$BZyruNYNAZ1Hg./RCX6ol/14FIlV2O/','joeross','joe@advertisingbros.com','','2015-03-01 21:10:06','',0,'joeross',0,0),(2,'brianross','$P$BDg93hTkJ2DgE7O2zNiFYnRvNf9jnJ.','brianross','brian@advertisingbros.com','','2015-05-04 15:02:43','',0,'brianross',0,0);
 /*!40000 ALTER TABLE `wp_users` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
