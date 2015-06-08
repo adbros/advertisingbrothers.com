@@ -28,7 +28,7 @@ CREATE TABLE `wp_signups` (
   KEY `activation_key` (`activation_key`),
   KEY `user_email` (`user_email`),
   KEY `user_login_email` (`user_login`,`user_email`),
-  KEY `domain_path` (`domain`(191),`path`)
+  KEY `domain_path` (`domain`(140),`path`(51))
 ) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
