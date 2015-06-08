@@ -1,0 +1,1 @@
+[07-Jun-2015 17:10:52 UTC] WordPress database error Duplicate key name 'domain_path' for query ALTER TABLE wp_signups ADD KEY domain_path (domain(140),path(51)) made by wp_upgrade, make_db_current_silent, dbDelta
