@@ -1,0 +1,343 @@
+0000.001 (0) Opened log file at time: Tue, 23 Jun 2015 15:14:39 +0000 on http://advertisingbrothers.com
+0000.005 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.10.3 WP: 4.2.2 PHP: 5.5.20 (Linux helios.geekstorage.com 2.6.32-531.29.2.lve1.3.11.1.el6.x86_64 #1 SMP Thu Dec 18 06:49:17 EST 2014 x86_64) MySQL:  Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 29.1M | 29.8M) multisite: Y mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.007 (0) Free space on disk containing Updraft's temporary directory: 34991.5 Mb
+0000.011 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.013 (0) Processed schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.031 (0) Requesting semaphore lock (fd)
+0000.036 (0) Set semaphore last lock (fd) time to 2015-06-23 15:14:39
+0000.038 (0) Semaphore lock (fd) complete
+0000.046 (0) Backup run: resumption=0, nonce=f6c0d6616c8b, begun at=1435072479 (1s ago), job type=backup
+0000.050 (0) Scheduling a resumption (1) after 300 seconds (1435072780) in case this run gets aborted
+0000.079 (0) Checking if we have a zip executable available
+0000.084 (0) Creation of backups of directories: beginning
+0000.120 (0) Beginning creation of dump of plugins (split every: 500 Mb)
+0002.465 (0) Total entities for the zip file: 597 directories, 4023 files (0 skipped as non-modified), 46.7 Mb
+0002.508 (0) Zip: backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-plugins.zip.tmp: 100 files added (on-disk size: 0 Kb)
+0002.552 (0) Zip: backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-plugins.zip.tmp: 200 files added (on-disk size: 0 Kb)
+0002.592 (0) Zip: backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-plugins.zip.tmp: 300 files added (on-disk size: 0 Kb)
+0002.637 (0) Zip: backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-plugins.zip.tmp: 400 files added (on-disk size: 0 Kb)
+0002.679 (0) Zip: backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-plugins.zip.tmp: 500 files added (on-disk size: 0 Kb)
+0002.682 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (4.4 Mb, 4023 files batched, 501 (501) added so far); re-opening (prior size: 0 Kb)
+0005.370 (0) Zip: backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-plugins.zip.tmp: 600 files added (on-disk size: 1897.3 Kb)
+0005.413 (0) Zip: backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-plugins.zip.tmp: 700 files added (on-disk size: 1897.3 Kb)
+0005.457 (0) Zip: backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-plugins.zip.tmp: 800 files added (on-disk size: 1897.3 Kb)
+0005.501 (0) Zip: backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-plugins.zip.tmp: 900 files added (on-disk size: 1897.3 Kb)
+0005.542 (0) Zip: backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-plugins.zip.tmp: 1000 files added (on-disk size: 1897.3 Kb)
+0005.546 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1.9 Mb, 4023 files batched, 501 (1002) added so far); re-opening (prior size: 1897.3 Kb)
+0008.813 (0) Zip: backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-plugins.zip.tmp: 1100 files added (on-disk size: 2562.3 Kb)
+0008.858 (0) Zip: backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-plugins.zip.tmp: 1200 files added (on-disk size: 2562.3 Kb)
+0008.894 (0) Zip: backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-plugins.zip.tmp: 1300 files added (on-disk size: 2562.3 Kb)
+0008.930 (0) Zip: backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-plugins.zip.tmp: 1400 files added (on-disk size: 2562.3 Kb)
+0008.973 (0) Zip: backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-plugins.zip.tmp: 1500 files added (on-disk size: 2562.3 Kb)
+0008.982 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (9.6 Mb, 4023 files batched, 501 (1503) added so far); re-opening (prior size: 2562.3 Kb)
+0015.789 (0) Zip: backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-plugins.zip.tmp: 1600 files added (on-disk size: 6998.5 Kb)
+0015.834 (0) Zip: backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-plugins.zip.tmp: 1700 files added (on-disk size: 6998.5 Kb)
+0015.880 (0) Zip: backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-plugins.zip.tmp: 1800 files added (on-disk size: 6998.5 Kb)
+0015.928 (0) Zip: backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-plugins.zip.tmp: 1900 files added (on-disk size: 6998.5 Kb)
+0015.984 (0) Zip: backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-plugins.zip.tmp: 2000 files added (on-disk size: 6998.5 Kb)
+0015.988 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (3.1 Mb, 4023 files batched, 501 (2004) added so far); re-opening (prior size: 6998.5 Kb)
+0019.698 (0) Zip: backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-plugins.zip.tmp: 2100 files added (on-disk size: 8269.5 Kb)
+0019.750 (0) Zip: backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-plugins.zip.tmp: 2200 files added (on-disk size: 8269.5 Kb)
+0019.808 (0) Zip: backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-plugins.zip.tmp: 2300 files added (on-disk size: 8269.5 Kb)
+0019.881 (0) Zip: backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-plugins.zip.tmp: 2400 files added (on-disk size: 8269.5 Kb)
+0019.926 (0) Zip: backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-plugins.zip.tmp: 2500 files added (on-disk size: 8269.5 Kb)
+0019.941 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (6.3 Mb, 4023 files batched, 501 (2505) added so far); re-opening (prior size: 8269.5 Kb)
+0026.547 (0) Zip: backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-plugins.zip.tmp: 2600 files added (on-disk size: 10947.2 Kb)
+0026.597 (0) Zip: backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-plugins.zip.tmp: 2700 files added (on-disk size: 10947.2 Kb)
+0026.666 (0) Zip: backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-plugins.zip.tmp: 2800 files added (on-disk size: 10947.2 Kb)
+0026.723 (0) Zip: backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-plugins.zip.tmp: 2900 files added (on-disk size: 10947.2 Kb)
+0026.785 (0) Zip: backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-plugins.zip.tmp: 3000 files added (on-disk size: 10947.2 Kb)
+0026.793 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (5.9 Mb, 4023 files batched, 501 (3006) added so far); re-opening (prior size: 10947.2 Kb)
+0033.100 (0) Zip: backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-plugins.zip.tmp: 3100 files added (on-disk size: 13166.8 Kb)
+0033.183 (0) Zip: backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-plugins.zip.tmp: 3200 files added (on-disk size: 13166.8 Kb)
+0033.237 (0) Zip: backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-plugins.zip.tmp: 3300 files added (on-disk size: 13166.8 Kb)
+0033.290 (0) Zip: backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-plugins.zip.tmp: 3400 files added (on-disk size: 13166.8 Kb)
+0033.346 (0) Zip: backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-plugins.zip.tmp: 3500 files added (on-disk size: 13166.8 Kb)
+0033.355 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1.7 Mb, 4023 files batched, 501 (3507) added so far); re-opening (prior size: 13166.8 Kb)
+0038.496 (0) Zip: backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-plugins.zip.tmp: 3600 files added (on-disk size: 14030 Kb)
+0038.581 (0) Zip: backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-plugins.zip.tmp: 3700 files added (on-disk size: 14030 Kb)
+0038.639 (0) Zip: backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-plugins.zip.tmp: 3800 files added (on-disk size: 14030 Kb)
+0038.687 (0) Zip: backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-plugins.zip.tmp: 3900 files added (on-disk size: 14030 Kb)
+0038.736 (0) Zip: backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-plugins.zip.tmp: 4000 files added (on-disk size: 14030 Kb)
+0038.744 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (13.1 Mb, 4023 files batched, 501 (4008) added so far); re-opening (prior size: 14030 Kb)
+0053.318 (0) Created plugins zip (0) - 18463.6 Kb in 53.2 s (347.2 Kb/s) (SHA1 checksum: 7f881162cb72b0dc0f35325b6a7c00772905288a)
+0053.336 (0) Beginning creation of dump of themes (split every: 500 Mb)
+0053.547 (0) Total entities for the zip file: 57 directories, 490 files (0 skipped as non-modified), 61 Mb
+0053.576 (0) Zip: backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-themes.zip.tmp: 100 files added (on-disk size: 0 Kb)
+0053.607 (0) Zip: backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-themes.zip.tmp: 200 files added (on-disk size: 0 Kb)
+0053.612 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 Mb added on this batch (25.1 Mb, 490 files batched, 207 (207) added so far); re-opening (prior size: 0 Kb)
+0066.947 (0) A useful amount of data was added after this amount of zip processing: 13.9 s (normalised: 13.8 s, rate: 1849.8 Kb/s)
+0067.140 (0) Zip: backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-themes.zip.tmp: 300 files added (on-disk size: 24194 Kb)
+0067.150 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 Mb added on this batch (25.7 Mb, 490 files batched, 122 (329) added so far); re-opening (prior size: 24194 Kb)
+0087.853 (0) A useful amount of data was added after this amount of zip processing: 20.8 s (normalised: 20.2 s, rate: 1266.3 Kb/s)
+0087.966 (0) Zip: backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-themes.zip.tmp: 400 files added (on-disk size: 49580.3 Kb)
+0105.792 (0) Created themes zip (0) - 58869.3 Kb in 52.4 s (1122.7 Kb/s) (SHA1 checksum: d77dc1cf68af67d7408e0b75facabd5d4189e4b9)
+0105.849 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone
+0105.851 (0) Looking for candidates to back up in: /home/joeross/public_html/advertisingbrothers.com/wp-content/uploads
+0105.853 (0) finding files: 2015: adding to list (1)
+0105.856 (0) finding files: revisr-backups: skipping: excluded by options (glob)
+0105.858 (0) finding files: backwpup-3dc4a3-logs: skipping: excluded by options (glob)
+0105.861 (0) finding files: backwpup-3dc4a3-temp: skipping: excluded by options (glob)
+0105.862 (0) Beginning creation of dump of uploads (split every: 500 Mb)
+0105.934 (0) Total entities for the zip file: 5 directories, 145 files (0 skipped as non-modified), 13.4 Mb
+0105.966 (0) Zip: backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-uploads.zip.tmp: 100 files added (on-disk size: 0 Kb)
+0113.665 (0) Created uploads zip (0) - 13567.2 Kb in 7.8 s (1743.3 Kb/s) (SHA1 checksum: 2ab7a07e98e28b122edf007fb82b9de3ca885def)
+0113.673 (0) Beginning backup of other directories found in the content directory (index: 0)
+0113.675 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups
+0113.677 (0) Looking for candidates to back up in: /home/joeross/public_html/advertisingbrothers.com/wp-content
+0113.679 (0) finding files: advanced-cache.php: adding to list (1)
+0113.681 (0) finding files: updraft: skipping: this is the updraft directory
+0113.683 (0) finding files: index.php: adding to list (2)
+0113.686 (0) finding files: cache: skipping: excluded by options
+0113.688 (0) finding files: wp-cache-config.php: adding to list (3)
+0113.689 (0) finding files: plugins: skipping: this is the plugins directory
+0113.691 (0) finding files: uploads: skipping: this is the uploads directory
+0113.693 (0) finding files: upgrade: skipping: excluded by options
+0113.695 (0) finding files: themes: skipping: this is the themes directory
+0113.717 (0) Total entities for the zip file: 0 directories, 3 files (0 skipped as non-modified), 0 Mb
+0113.731 (0) Created others zip (0) - 2.6 Kb in 0 s (153.1 Kb/s) (SHA1 checksum: 86ea8cc9490278e352ad42f13ed8d6e193260173)
+0113.745 (0) Saving backup status to database (elements: 8)
+0113.751 (0) Beginning creation of database dump (WordPress DB)
+0113.760 (0) Table wp_options: Total expected rows (approximate): 595
+0113.825 (0) Table wp_options: Total rows added: 279 in 0.06 seconds
+0113.829 (0) Table wp_options: finishing file (backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-db-table-wp_options.table.gz - 122 Kb)
+0113.836 (0) Table wp_users: Total expected rows (approximate): 2
+0113.840 (0) Table wp_users: Total rows added: 2 in 0.00 seconds
+0113.841 (0) Table wp_users: finishing file (backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-db-table-wp_users.table.gz - 0.6 Kb)
+0113.848 (0) Table wp_usermeta: Total expected rows (approximate): 41
+0113.853 (0) Table wp_usermeta: Total rows added: 41 in 0.00 seconds
+0113.856 (0) Table wp_usermeta: finishing file (backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-db-table-wp_usermeta.table.gz - 1.8 Kb)
+0113.862 (0) Table wp_blog_versions: Total expected rows (approximate): 1
+0113.866 (0) Table wp_blog_versions: Total rows added: 1 in 0.00 seconds
+0113.868 (0) Table wp_blog_versions: finishing file (backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-db-table-wp_blog_versions.table.gz - 0.4 Kb)
+0113.874 (0) Table wp_blogs: Total expected rows (approximate): 1
+0113.879 (0) Table wp_blogs: Total rows added: 1 in 0.00 seconds
+0113.881 (0) Table wp_blogs: finishing file (backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-db-table-wp_blogs.table.gz - 0.5 Kb)
+0113.886 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0113.890 (0) Table wp_commentmeta: Total rows added: 0 in 0.00 seconds
+0113.893 (0) Table wp_commentmeta: finishing file (backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-db-table-wp_commentmeta.table.gz - 0.4 Kb)
+0113.899 (0) Table wp_comments: Total expected rows (approximate): 0
+0113.903 (0) Table wp_comments: Total rows added: 0 in 0.00 seconds
+0113.906 (0) Table wp_comments: finishing file (backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-db-table-wp_comments.table.gz - 0.5 Kb)
+0113.913 (0) Table wp_links: Total expected rows (approximate): 0
+0113.917 (0) Table wp_links: Total rows added: 0 in 0.00 seconds
+0113.919 (0) Table wp_links: finishing file (backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-db-table-wp_links.table.gz - 0.4 Kb)
+0113.925 (0) Table wp_postmeta: Total expected rows (approximate): 1223
+0113.958 (0) Table wp_postmeta: Total rows added: 818 in 0.03 seconds
+0113.962 (0) Table wp_postmeta: finishing file (backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-db-table-wp_postmeta.table.gz - 38.9 Kb)
+0113.969 (0) Table wp_posts: Total expected rows (approximate): 130
+0113.989 (0) Table wp_posts: Total rows added: 149 in 0.02 seconds
+0113.992 (0) Table wp_posts: finishing file (backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-db-table-wp_posts.table.gz - 6.1 Kb)
+0113.997 (0) Table wp_registration_log: Total expected rows (approximate): 0
+0114.001 (0) Table wp_registration_log: Total rows added: 0 in 0.00 seconds
+0114.003 (0) Table wp_registration_log: finishing file (backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-db-table-wp_registration_log.table.gz - 0.4 Kb)
+0114.010 (0) Table wp_signups: Total expected rows (approximate): 2
+0114.014 (0) Table wp_signups: Total rows added: 2 in 0.00 seconds
+0114.017 (0) Table wp_signups: finishing file (backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-db-table-wp_signups.table.gz - 0.7 Kb)
+0114.021 (0) Table wp_site: Total expected rows (approximate): 1
+0114.026 (0) Table wp_site: Total rows added: 1 in 0.00 seconds
+0114.029 (0) Table wp_site: finishing file (backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-db-table-wp_site.table.gz - 0.4 Kb)
+0114.036 (0) Table wp_sitemeta: Total expected rows (approximate): 40
+0114.044 (0) Table wp_sitemeta: Total rows added: 69 in 0.01 seconds
+0114.048 (0) Table wp_sitemeta: finishing file (backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-db-table-wp_sitemeta.table.gz - 8.2 Kb)
+0114.054 (0) Table wp_term_relationships: Total expected rows (approximate): 0
+0114.058 (0) Table wp_term_relationships: Total rows added: 0 in 0.00 seconds
+0114.061 (0) Table wp_term_relationships: finishing file (backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-db-table-wp_term_relationships.table.gz - 0.3 Kb)
+0114.066 (0) Table wp_term_taxonomy: Total expected rows (approximate): 1
+0114.070 (0) Table wp_term_taxonomy: Total rows added: 1 in 0.00 seconds
+0114.073 (0) Table wp_term_taxonomy: finishing file (backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-db-table-wp_term_taxonomy.table.gz - 0.4 Kb)
+0114.079 (0) Table wp_terms: Total expected rows (approximate): 1
+0114.083 (0) Table wp_terms: Total rows added: 1 in 0.00 seconds
+0114.085 (0) Table wp_terms: finishing file (backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-db-table-wp_terms.table.gz - 0.4 Kb)
+0114.091 (0) Table wp_revisr: Total expected rows (approximate): 341
+0114.101 (0) Table wp_revisr: Total rows added: 341 in 0.01 seconds
+0114.103 (0) Table wp_revisr: finishing file (backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-db-table-wp_revisr.table.gz - 3.2 Kb)
+0114.109 (0) backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-db-table-wp_options.table.gz (1/18): adding to final database dump
+0114.145 (0) backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-db-table-wp_users.table.gz (2/18): adding to final database dump
+0114.149 (0) backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-db-table-wp_usermeta.table.gz (3/18): adding to final database dump
+0114.152 (0) backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-db-table-wp_blog_versions.table.gz (4/18): adding to final database dump
+0114.154 (0) backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-db-table-wp_blogs.table.gz (5/18): adding to final database dump
+0114.156 (0) backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-db-table-wp_commentmeta.table.gz (6/18): adding to final database dump
+0114.159 (0) backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-db-table-wp_comments.table.gz (7/18): adding to final database dump
+0114.161 (0) backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-db-table-wp_links.table.gz (8/18): adding to final database dump
+0114.163 (0) backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-db-table-wp_postmeta.table.gz (9/18): adding to final database dump
+0114.179 (0) backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-db-table-wp_posts.table.gz (10/18): adding to final database dump
+0114.184 (0) backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-db-table-wp_registration_log.table.gz (11/18): adding to final database dump
+0114.187 (0) backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-db-table-wp_signups.table.gz (12/18): adding to final database dump
+0114.189 (0) backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-db-table-wp_site.table.gz (13/18): adding to final database dump
+0114.191 (0) backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-db-table-wp_sitemeta.table.gz (14/18): adding to final database dump
+0114.195 (0) backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-db-table-wp_term_relationships.table.gz (15/18): adding to final database dump
+0114.197 (0) backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-db-table-wp_term_taxonomy.table.gz (16/18): adding to final database dump
+0114.199 (0) backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-db-table-wp_terms.table.gz (17/18): adding to final database dump
+0114.201 (0) backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-db-table-wp_revisr.table.gz (18/18): adding to final database dump
+0114.205 (0) backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-db.gz: finished writing out complete database file (144 Kb)
+0114.220 (0) Total database tables backed up: 18 (backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-db.gz, size: 186508, checksum (SHA1): 4159c920cf540d06d5c34d8226b774f9a67a730b)
+0114.223 (0) Saving backup history
+0114.232 (0) backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0114.234 (0) backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0114.237 (0) backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0114.240 (0) backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-others.zip: others: This file has not yet been successfully uploaded: will queue
+0114.242 (0) backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-db.gz: db: This file has not yet been successfully uploaded: will queue
+0114.248 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0114.252 (0) Cloud backup selection (1/1): dropbox (last)
+0114.254 (0) Beginning dispatch of backup to remote (dropbox)
+0114.256 (0) Dropbox: begin cloud upload
+0114.274 (0) Dropbox: access gained
+0114.657 (0) Dropbox quota usage: normal=327.9 Mb, shared=0 Mb, total=2560 Mb, available=2232.1 Mb
+0114.660 (0) Dropbox: Attempt to upload: backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-plugins.zip to: backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-plugins.zip
+0115.888 (0) Dropbox chunked upload: 5.5 % uploaded (3r8m9Lg7YTBQOT7uKiwLkA, 1048576)
+0117.234 (0) Dropbox chunked upload: 11.1 % uploaded (3r8m9Lg7YTBQOT7uKiwLkA, 2097152)
+0118.522 (0) Dropbox chunked upload: 16.6 % uploaded (3r8m9Lg7YTBQOT7uKiwLkA, 3145728)
+0121.070 (0) Dropbox chunked upload: 22.2 % uploaded (3r8m9Lg7YTBQOT7uKiwLkA, 4194304)
+0122.694 (0) Dropbox chunked upload: 27.7 % uploaded (3r8m9Lg7YTBQOT7uKiwLkA, 5242880)
+0124.115 (0) Dropbox chunked upload: 33.3 % uploaded (3r8m9Lg7YTBQOT7uKiwLkA, 6291456)
+0125.810 (0) Dropbox chunked upload: 38.8 % uploaded (3r8m9Lg7YTBQOT7uKiwLkA, 7340032)
+0129.219 (0) Dropbox chunked upload: 44.4 % uploaded (3r8m9Lg7YTBQOT7uKiwLkA, 8388608)
+0130.258 (0) Dropbox chunked upload: 49.9 % uploaded (3r8m9Lg7YTBQOT7uKiwLkA, 9437184)
+0131.651 (0) Dropbox chunked upload: 55.5 % uploaded (3r8m9Lg7YTBQOT7uKiwLkA, 10485760)
+0133.218 (0) Dropbox chunked upload: 61 % uploaded (3r8m9Lg7YTBQOT7uKiwLkA, 11534336)
+0135.293 (0) Dropbox chunked upload: 66.6 % uploaded (3r8m9Lg7YTBQOT7uKiwLkA, 12582912)
+0136.352 (0) Dropbox chunked upload: 72.1 % uploaded (3r8m9Lg7YTBQOT7uKiwLkA, 13631488)
+0137.701 (0) Dropbox chunked upload: 77.6 % uploaded (3r8m9Lg7YTBQOT7uKiwLkA, 14680064)
+0139.431 (0) Dropbox chunked upload: 83.2 % uploaded (3r8m9Lg7YTBQOT7uKiwLkA, 15728640)
+0143.639 (0) Dropbox chunked upload: 88.7 % uploaded (3r8m9Lg7YTBQOT7uKiwLkA, 16777216)
+0144.918 (0) Dropbox chunked upload: 94.3 % uploaded (3r8m9Lg7YTBQOT7uKiwLkA, 17825792)
+0147.296 (0) Dropbox chunked upload: 99.8 % uploaded (3r8m9Lg7YTBQOT7uKiwLkA, 18874368)
+0148.246 (0) Dropbox chunked upload: 100 % uploaded (3r8m9Lg7YTBQOT7uKiwLkA, 18906744)
+0150.934 (0) Recording as successfully uploaded: backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-plugins.zip (ee620d7e9eafc739b2f1bc8b1ed3a964)
+0150.946 (0) Deleting local file: backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-plugins.zip: OK
+0150.948 (0) Dropbox: File upload success (backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-plugins.zip): 18463 Kb in 36s (508 Kb/s)
+0151.306 (0) Dropbox quota usage: normal=345.9 Mb, shared=0 Mb, total=2560 Mb, available=2214.1 Mb
+0151.309 (0) Dropbox: Attempt to upload: backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-themes.zip to: backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-themes.zip
+0152.500 (0) Dropbox chunked upload: 1.7 % uploaded (HU6d7xthalsofogg-hoD6g, 1048576)
+0154.103 (0) Dropbox chunked upload: 3.5 % uploaded (HU6d7xthalsofogg-hoD6g, 2097152)
+0155.599 (0) Dropbox chunked upload: 5.2 % uploaded (HU6d7xthalsofogg-hoD6g, 3145728)
+0159.093 (0) Dropbox chunked upload: 7 % uploaded (HU6d7xthalsofogg-hoD6g, 4194304)
+0160.232 (0) Dropbox chunked upload: 8.7 % uploaded (HU6d7xthalsofogg-hoD6g, 5242880)
+0161.681 (0) Dropbox chunked upload: 10.4 % uploaded (HU6d7xthalsofogg-hoD6g, 6291456)
+0163.366 (0) Dropbox chunked upload: 12.2 % uploaded (HU6d7xthalsofogg-hoD6g, 7340032)
+0165.922 (0) Dropbox chunked upload: 13.9 % uploaded (HU6d7xthalsofogg-hoD6g, 8388608)
+0167.003 (0) Dropbox chunked upload: 15.7 % uploaded (HU6d7xthalsofogg-hoD6g, 9437184)
+0169.929 (0) Dropbox chunked upload: 17.4 % uploaded (HU6d7xthalsofogg-hoD6g, 10485760)
+0171.443 (0) Dropbox chunked upload: 19.1 % uploaded (HU6d7xthalsofogg-hoD6g, 11534336)
+0174.647 (0) Dropbox chunked upload: 20.9 % uploaded (HU6d7xthalsofogg-hoD6g, 12582912)
+0175.834 (0) Dropbox chunked upload: 22.6 % uploaded (HU6d7xthalsofogg-hoD6g, 13631488)
+0177.079 (0) Dropbox chunked upload: 24.4 % uploaded (HU6d7xthalsofogg-hoD6g, 14680064)
+0178.575 (0) Dropbox chunked upload: 26.1 % uploaded (HU6d7xthalsofogg-hoD6g, 15728640)
+0181.049 (0) Dropbox chunked upload: 27.8 % uploaded (HU6d7xthalsofogg-hoD6g, 16777216)
+0182.210 (0) Dropbox chunked upload: 29.6 % uploaded (HU6d7xthalsofogg-hoD6g, 17825792)
+0183.519 (0) Dropbox chunked upload: 31.3 % uploaded (HU6d7xthalsofogg-hoD6g, 18874368)
+0185.283 (0) Dropbox chunked upload: 33 % uploaded (HU6d7xthalsofogg-hoD6g, 19922944)
+0187.638 (0) Dropbox chunked upload: 34.8 % uploaded (HU6d7xthalsofogg-hoD6g, 20971520)
+0188.804 (0) Dropbox chunked upload: 36.5 % uploaded (HU6d7xthalsofogg-hoD6g, 22020096)
+0190.165 (0) Dropbox chunked upload: 38.3 % uploaded (HU6d7xthalsofogg-hoD6g, 23068672)
+0191.681 (0) Dropbox chunked upload: 40 % uploaded (HU6d7xthalsofogg-hoD6g, 24117248)
+0194.239 (0) Dropbox chunked upload: 41.7 % uploaded (HU6d7xthalsofogg-hoD6g, 25165824)
+0195.602 (0) Dropbox chunked upload: 43.5 % uploaded (HU6d7xthalsofogg-hoD6g, 26214400)
+0197.667 (0) Dropbox chunked upload: 45.2 % uploaded (HU6d7xthalsofogg-hoD6g, 27262976)
+0199.495 (0) Dropbox chunked upload: 47 % uploaded (HU6d7xthalsofogg-hoD6g, 28311552)
+0202.589 (0) Dropbox chunked upload: 48.7 % uploaded (HU6d7xthalsofogg-hoD6g, 29360128)
+0203.610 (0) Dropbox chunked upload: 50.4 % uploaded (HU6d7xthalsofogg-hoD6g, 30408704)
+0205.204 (0) Dropbox chunked upload: 52.2 % uploaded (HU6d7xthalsofogg-hoD6g, 31457280)
+0206.792 (0) Dropbox chunked upload: 53.9 % uploaded (HU6d7xthalsofogg-hoD6g, 32505856)
+0209.417 (0) Dropbox chunked upload: 55.7 % uploaded (HU6d7xthalsofogg-hoD6g, 33554432)
+0210.578 (0) Dropbox chunked upload: 57.4 % uploaded (HU6d7xthalsofogg-hoD6g, 34603008)
+0211.893 (0) Dropbox chunked upload: 59.1 % uploaded (HU6d7xthalsofogg-hoD6g, 35651584)
+0213.475 (0) Dropbox chunked upload: 60.9 % uploaded (HU6d7xthalsofogg-hoD6g, 36700160)
+0215.688 (0) Dropbox chunked upload: 62.6 % uploaded (HU6d7xthalsofogg-hoD6g, 37748736)
+0216.818 (0) Dropbox chunked upload: 64.4 % uploaded (HU6d7xthalsofogg-hoD6g, 38797312)
+0218.492 (0) Dropbox chunked upload: 66.1 % uploaded (HU6d7xthalsofogg-hoD6g, 39845888)
+0220.249 (0) Dropbox chunked upload: 67.8 % uploaded (HU6d7xthalsofogg-hoD6g, 40894464)
+0222.741 (0) Dropbox chunked upload: 69.6 % uploaded (HU6d7xthalsofogg-hoD6g, 41943040)
+0223.759 (0) Dropbox chunked upload: 71.3 % uploaded (HU6d7xthalsofogg-hoD6g, 42991616)
+0225.272 (0) Dropbox chunked upload: 73.1 % uploaded (HU6d7xthalsofogg-hoD6g, 44040192)
+0227.229 (0) Dropbox chunked upload: 74.8 % uploaded (HU6d7xthalsofogg-hoD6g, 45088768)
+0229.583 (0) Dropbox chunked upload: 76.5 % uploaded (HU6d7xthalsofogg-hoD6g, 46137344)
+0230.673 (0) Dropbox chunked upload: 78.3 % uploaded (HU6d7xthalsofogg-hoD6g, 47185920)
+0232.212 (0) Dropbox chunked upload: 80 % uploaded (HU6d7xthalsofogg-hoD6g, 48234496)
+0233.699 (0) Dropbox chunked upload: 81.8 % uploaded (HU6d7xthalsofogg-hoD6g, 49283072)
+0235.947 (0) Dropbox chunked upload: 83.5 % uploaded (HU6d7xthalsofogg-hoD6g, 50331648)
+0237.122 (0) Dropbox chunked upload: 85.2 % uploaded (HU6d7xthalsofogg-hoD6g, 51380224)
+0238.417 (0) Dropbox chunked upload: 87 % uploaded (HU6d7xthalsofogg-hoD6g, 52428800)
+0240.004 (0) Dropbox chunked upload: 88.7 % uploaded (HU6d7xthalsofogg-hoD6g, 53477376)
+0242.409 (0) Dropbox chunked upload: 90.5 % uploaded (HU6d7xthalsofogg-hoD6g, 54525952)
+0243.574 (0) Dropbox chunked upload: 92.2 % uploaded (HU6d7xthalsofogg-hoD6g, 55574528)
+0244.969 (0) Dropbox chunked upload: 93.9 % uploaded (HU6d7xthalsofogg-hoD6g, 56623104)
+0246.616 (0) Dropbox chunked upload: 95.7 % uploaded (HU6d7xthalsofogg-hoD6g, 57671680)
+0251.368 (0) Dropbox chunked upload: 97.4 % uploaded (HU6d7xthalsofogg-hoD6g, 58720256)
+0252.389 (0) Dropbox chunked upload: 99.1 % uploaded (HU6d7xthalsofogg-hoD6g, 59768832)
+0253.926 (0) Dropbox chunked upload: 100 % uploaded (HU6d7xthalsofogg-hoD6g, 60282125)
+0256.366 (0) Recording as successfully uploaded: backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-themes.zip (2204491bd6bddf2d73f61e086be1e9f4)
+0256.391 (0) Deleting local file: backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-themes.zip: OK
+0256.394 (0) Dropbox: File upload success (backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-themes.zip): 58869 Kb in 105s (560 Kb/s)
+0256.778 (0) Dropbox quota usage: normal=403.4 Mb, shared=0 Mb, total=2560 Mb, available=2156.6 Mb
+0256.781 (0) Dropbox: Attempt to upload: backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-uploads.zip to: backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-uploads.zip
+0258.698 (0) The scheduled resumption is within 45 seconds - will reschedule
+0258.703 (0) Rescheduling resumption 1: moving to 345 seconds from now (1435073083)
+0258.709 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 300 + 45 = 345
+0258.712 (0) Dropbox chunked upload: 7.5 % uploaded (lxsKfnW0quKjP9-yIc_faw, 1048576)
+0260.160 (0) Dropbox chunked upload: 15.1 % uploaded (lxsKfnW0quKjP9-yIc_faw, 2097152)
+0261.917 (0) Dropbox chunked upload: 22.6 % uploaded (lxsKfnW0quKjP9-yIc_faw, 3145728)
+0265.350 (0) Dropbox chunked upload: 30.2 % uploaded (lxsKfnW0quKjP9-yIc_faw, 4194304)
+0266.977 (0) Dropbox chunked upload: 37.7 % uploaded (lxsKfnW0quKjP9-yIc_faw, 5242880)
+0268.612 (0) Dropbox chunked upload: 45.3 % uploaded (lxsKfnW0quKjP9-yIc_faw, 6291456)
+0270.145 (0) Dropbox chunked upload: 52.8 % uploaded (lxsKfnW0quKjP9-yIc_faw, 7340032)
+0273.499 (0) Dropbox chunked upload: 60.4 % uploaded (lxsKfnW0quKjP9-yIc_faw, 8388608)
+0274.647 (0) Dropbox chunked upload: 67.9 % uploaded (lxsKfnW0quKjP9-yIc_faw, 9437184)
+0275.997 (0) Dropbox chunked upload: 75.5 % uploaded (lxsKfnW0quKjP9-yIc_faw, 10485760)
+0277.802 (0) Dropbox chunked upload: 83 % uploaded (lxsKfnW0quKjP9-yIc_faw, 11534336)
+0280.532 (0) Dropbox chunked upload: 90.6 % uploaded (lxsKfnW0quKjP9-yIc_faw, 12582912)
+0281.691 (0) Dropbox chunked upload: 98.1 % uploaded (lxsKfnW0quKjP9-yIc_faw, 13631488)
+0283.482 (0) Dropbox chunked upload: 100 % uploaded (lxsKfnW0quKjP9-yIc_faw, 13892856)
+0285.100 (0) Recording as successfully uploaded: backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-uploads.zip (93f3ba5d3792d387decedb581c1bbd18)
+0285.121 (0) Deleting local file: backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-uploads.zip: OK
+0285.124 (0) Dropbox: File upload success (backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-uploads.zip): 13567 Kb in 28s (478 Kb/s)
+0285.492 (0) Dropbox quota usage: normal=416.7 Mb, shared=0 Mb, total=2560 Mb, available=2143.3 Mb
+0285.495 (0) Dropbox: Attempt to upload: backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-others.zip to: backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-others.zip
+0286.270 (0) Dropbox chunked upload: 100 % uploaded (FLjdWJs7QItpglO4UOC9VA, 2685)
+0287.861 (0) Recording as successfully uploaded: backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-others.zip (6bf5c1c6c6f426f1909dfdf85f266b22)
+0287.872 (0) Deleting local file: backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-others.zip: OK
+0287.875 (0) Dropbox: File upload success (backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-others.zip): 2 Kb in 2s (1 Kb/s)
+0288.227 (0) Dropbox quota usage: normal=416.7 Mb, shared=0 Mb, total=2560 Mb, available=2143.3 Mb
+0288.233 (0) Dropbox: Attempt to upload: backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-db.gz to: backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-db.gz
+0289.264 (0) Dropbox chunked upload: 100 % uploaded (I384qaefCFo19hnwvAiKmg, 186508)
+0290.549 (0) Recording as successfully uploaded: backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-db.gz (ead88eee7e61cfae3973353227ff97e2)
+0290.556 (0) Deleting local file: backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-db.gz: OK
+0290.559 (0) Dropbox: File upload success (backup_2015-06-23-1514_Advertising_Brothers_f6c0d6616c8b-db.gz): 182 Kb in 2s (78 Kb/s)
+0290.563 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0290.566 (0) Number of backup sets in history: 3
+0290.568 (0) Examining backup set with datestamp: 1435072479 (Jun 23 2015 15:14:39)
+0290.571 (0) 1435072479: this backup set remains non-empty (1/1); will retain in history
+0290.573 (0) Examining backup set with datestamp: 1434993305 (Jun 22 2015 17:15:05)
+0290.576 (0) 1434993305: this backup set remains non-empty (1/1); will retain in history
+0290.579 (0) Examining backup set with datestamp: 1434903579 (Jun 21 2015 16:19:39)
+0290.581 (0) 1434903579: db: this set includes a database (backup_2015-06-21-1619_Advertising_Brothers_4621d65184e7-db.gz); db count is now 3
+0290.583 (0) 1434903579: db: over retain limit (2); will delete this database
+0290.584 (0) Delete file: backup_2015-06-21-1619_Advertising_Brothers_4621d65184e7-db.gz, service=dropbox
+0290.586 (0) Dropbox: request deletion: backup_2015-06-21-1619_Advertising_Brothers_4621d65184e7-db.gz
+0291.245 (0) Dropbox: delete succeeded
+0291.250 (0) plugins: 1434903579: over retain limit (2); will delete this file (backup_2015-06-21-1619_Advertising_Brothers_4621d65184e7-plugins.zip)
+0291.251 (0) themes: 1434903579: over retain limit (2); will delete this file (backup_2015-06-21-1619_Advertising_Brothers_4621d65184e7-themes.zip)
+0291.253 (0) uploads: 1434903579: over retain limit (2); will delete this file (backup_2015-06-21-1619_Advertising_Brothers_4621d65184e7-uploads.zip)
+0291.256 (0) others: 1434903579: over retain limit (2); will delete this file (backup_2015-06-21-1619_Advertising_Brothers_4621d65184e7-others.zip)
+0291.258 (0) Delete file: backup_2015-06-21-1619_Advertising_Brothers_4621d65184e7-plugins.zip, service=dropbox
+0291.261 (0) Delete file: backup_2015-06-21-1619_Advertising_Brothers_4621d65184e7-themes.zip, service=dropbox
+0291.263 (0) Delete file: backup_2015-06-21-1619_Advertising_Brothers_4621d65184e7-uploads.zip, service=dropbox
+0291.265 (0) Delete file: backup_2015-06-21-1619_Advertising_Brothers_4621d65184e7-others.zip, service=dropbox
+0291.270 (0) Dropbox: request deletion: backup_2015-06-21-1619_Advertising_Brothers_4621d65184e7-plugins.zip
+0291.779 (0) Dropbox: delete succeeded
+0291.782 (0) Dropbox: request deletion: backup_2015-06-21-1619_Advertising_Brothers_4621d65184e7-themes.zip
+0292.278 (0) Dropbox: delete succeeded
+0292.281 (0) Dropbox: request deletion: backup_2015-06-21-1619_Advertising_Brothers_4621d65184e7-uploads.zip
+0292.791 (0) Dropbox: delete succeeded
+0292.796 (0) Dropbox: request deletion: backup_2015-06-21-1619_Advertising_Brothers_4621d65184e7-others.zip
+0293.317 (0) Dropbox: delete succeeded
+0293.321 (0) 1434903579: this backup set is now empty; will remove from history
+0293.323 (0) 1434903579: deleting log file (log.4621d65184e7.txt)
+0293.331 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0293.338 (0) Resume backup (f6c0d6616c8b, 0): finish run
+0293.343 (0) Decremented the semaphore (fd) by 1
+0293.346 (0) Semaphore (fd) unlocked
+0293.348 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0293.355 (0) No email will/can be sent - the user has not configured an email address.
+0293.358 (0) The backup apparently succeeded and is now complete
