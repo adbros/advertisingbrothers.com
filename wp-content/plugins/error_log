@@ -2,3 +2,4 @@
 [16-Jul-2015 06:53:29 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/joeross/public_html/advertisingbrothers.com/wp-content/plugins/hello.php on line 60
 [22-Aug-2015 18:25:59 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/joeross/public_html/advertisingbrothers.com/wp-content/plugins/hello.php on line 60
 [10-Sep-2015 14:41:12 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/joeross/public_html/advertisingbrothers.com/wp-content/plugins/hello.php on line 60
+[13-Sep-2015 19:17:34 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/joeross/public_html/advertisingbrothers.com/wp-content/plugins/hello.php on line 60
