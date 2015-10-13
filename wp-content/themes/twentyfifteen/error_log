@@ -1,0 +1,1 @@
+[13-Oct-2015 02:21:35 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home/joeross/public_html/advertisingbrothers.com/wp-content/themes/twentyfifteen/index.php on line 17
