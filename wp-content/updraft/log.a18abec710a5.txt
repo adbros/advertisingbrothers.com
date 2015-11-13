@@ -1,0 +1,12 @@
+0543.922 (1) Opened log file at time: Thu, 12 Nov 2015 15:14:45 +0000 on http://advertisingbrothers.com
+0543.924 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.11.12 WP: 4.3.1 PHP: 5.5.28 (Linux helios.geekstorage.com 2.6.32-531.29.2.lve1.3.11.1.el6.x86_64 #1 SMP Thu Dec 18 06:49:17 EST 2014 x86_64) MySQL: 5.5.44 Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 31.3M | 32.3M) multisite: Y mcrypt: Y LANG:  ZipArchive::addFile: Y
+0543.926 (1) Free space on disk containing Updraft's temporary directory: 20631 Mb
+0543.928 (1) It looks like WordPress's scheduler has started multiple instances of this resumption
+0543.931 (1) Terminate: check-in exists with activity within the last 30 seconds (time_mod=1447341283.9, time_now=1447341286, diff=2, size=n/a). This likely means that another UpdraftPlus run is at work; so we will exit.
+0543.933 (1) Rescheduling resumption 2: moving to 300 seconds from now (1447341586)
+0543.937 (1) To decrease the likelihood of overlaps, increasing resumption interval to: 300 + 0 = 300
+0987.082 (2) Opened log file at time: Thu, 12 Nov 2015 15:22:09 +0000 on http://advertisingbrothers.com
+0987.085 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.11.12 WP: 4.3.1 PHP: 5.5.28 (Linux helios.geekstorage.com 2.6.32-531.29.2.lve1.3.11.1.el6.x86_64 #1 SMP Thu Dec 18 06:49:17 EST 2014 x86_64) MySQL: 5.5.44 Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 30M | 30.8M) multisite: Y mcrypt: Y LANG:  ZipArchive::addFile: Y
+0987.087 (2) Free space on disk containing Updraft's temporary directory: 20610.6 Mb
+0987.091 (2) Backup run: resumption=2, nonce=a18abec710a5, begun at=1447340742 (987s ago), job type=backup, previous check-in=0s
+0987.093 (2) Terminate: This backup job is already finished (1).
