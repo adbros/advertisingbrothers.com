@@ -1,0 +1,5 @@
+2328.863 (1) Opened log file at time: Tue, 08 Dec 2015 16:30:11 +0000 on http://advertisingbrothers.com
+2328.865 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.11.12 WP: 4.3.1 PHP: 5.5.28 (Linux helios.geekstorage.com 2.6.32-531.29.2.lve1.3.11.1.el6.x86_64 #1 SMP Thu Dec 18 06:49:17 EST 2014 x86_64) MySQL: 5.5.44 Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 31.3M | 32.3M) multisite: Y mcrypt: Y LANG:  ZipArchive::addFile: Y
+2328.867 (1) Free space on disk containing Updraft's temporary directory: 27696.3 Mb
+2328.888 (1) Backup run: resumption=1, nonce=b030d29454c8, begun at=1449589882 (2329s ago), job type=backup, previous check-in=275.3s
+2328.890 (1) Terminate: This backup job is already finished (1).
